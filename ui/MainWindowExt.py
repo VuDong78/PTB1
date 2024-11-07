@@ -4,8 +4,7 @@ from utils import Function
 class MainWindowExt(Ui_MainWindow):
     def __init__(self):
         pass
-    def setupUi(self, MainWindow):
-        super().setupUi(MainWindow)
+
         self.MainWindow=MainWindow
         self.pushButtonSolve.clicked.connect(self.Solve)
         self.SignalAndSlot()
