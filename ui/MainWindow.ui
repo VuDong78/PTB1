@@ -13,7 +13,116 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>20</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PTB1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Input A:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Input B:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Result:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditA">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>70</y>
+      <width>501</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditB">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>100</y>
+      <width>501</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditResult">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>501</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSolve">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>210</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Solve</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonExit">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>210</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
