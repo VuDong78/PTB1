@@ -15,6 +15,8 @@ class MainWindowExt(Ui_MainWindow):
         a=float(self.lineEditA.text())
         b=float(self.lineEditB.text())
         result=Function(a,b)
+        #dòng thêm của Đồng
+        hehejsncsnsajhv
         self.lineEditResult.setText(result)
 
     def showWindow(self):
